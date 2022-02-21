@@ -949,7 +949,7 @@ html, body{ height: 100%; }
 -------------------------------------------------------------------*/
 
 .team-main{
-	background:url(../images/team_bg.png) no-repeat center;
+	background:url(../images/team_bg.jpg) no-repeat center;
 	background-attachment:fixed;
 	background-size:cover;
 	position:relative;
