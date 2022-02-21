@@ -6805,13 +6805,14 @@ return ImagesLoaded;
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
      //Basic Speeds
-     slideSpeed : 200,
-     paginationSpeed : 1000,
+     slideSpeed : 50,
+     paginationSpeed : 500,
   
      //Autoplay
-     autoPlay : true,
+     autoPlay : 2000,
      goToFirst : true,
      goToFirstSpeed : 500,
+
 
      //responsive
      items : 6,
