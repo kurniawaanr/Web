@@ -717,6 +717,18 @@ html, body{ height: 100%; }
 	position:relative;
 }
 
+
+/* modal */
+.modal {
+    top: 50px;
+}
+
+.modal-body img{
+    max-width: 100%;
+}
+
+/* end modal */
+
 .special-menu:before {
     content: '';
     display: inline-block;
