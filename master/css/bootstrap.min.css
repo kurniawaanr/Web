@@ -2846,13 +2846,13 @@ a.btn.disabled,fieldset[disabled] a.btn{
 }
 .btn-danger{
     color:#fff;
-    background-color:#d9534f;
-    border-color:#d43f3a
+    background-color:red;
+    border-color:red;
 }
 .btn-danger:focus,.btn-danger.focus{
     color:#fff;
-    background-color:#c9302c;
-    border-color:#761c19
+    background-color:#b30600;
+    border-color:#b30600;
 }
 .btn-danger:hover{
     color:#fff;
@@ -4999,7 +4999,6 @@ button.close{
 .modal-dialog{
     position:relative;
     width:auto;
-    margin:10px
 }
 .modal-content{
     position:relative;
@@ -5031,19 +5030,22 @@ button.close{
     filter:alpha(opacity=50)
 }
 .modal-header{
-    padding:15px;
-    border-bottom:1px solid #e5e5e5
+    padding: 15px;
+    background-color: red;
+    border-radius: 5px 5px 0px 0px;
 }
 .modal-header .close{
     margin-top:-2px
 }
 .modal-title{
     margin:0;
-    line-height:1.42857143
+    /* line-height:1.42857143; */
+    font-size: 40px;
+    font-family: lobster;
+    color: white;
 }
 .modal-body{
     position:relative;
-    padding:15px
 }
 .modal-footer{
     padding:15px;
