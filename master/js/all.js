@@ -6816,6 +6816,8 @@ $(document).ready(function(){
 
      //responsive
      items : 6,
+     dots: false,
+     pagination: false,
   });
 });
 
