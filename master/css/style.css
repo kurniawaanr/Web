@@ -258,10 +258,6 @@ html, body{ height: 100%; }
     HEADER AREA
 -------------------------------------------------------------------*/
 
-#site-header{
-	
-}
-#header{}
 .logo{
 	float:left;
 }
@@ -273,7 +269,6 @@ html, body{ height: 100%; }
     left: 0;
 }
 
-.main-menu{}
 .header-block-top .navbar-brand {
     margin: 0 !important;
     padding: 15px 0 15px;
@@ -579,6 +574,7 @@ html, body{ height: 100%; }
     transform: translate3d(-50%, 20px, 0);
     opacity: 0;
   }
+  /*
   @media (min-width: 768px) {
     from {
       -webkit-transform: translate(-50%, 0);
@@ -594,7 +590,7 @@ html, body{ height: 100%; }
       transform: translate3d(-50%, 40px, 0);
       opacity: 0;
     }
-  }
+  }*/
 }
 
 @keyframes scrollWheel {
@@ -612,6 +608,7 @@ html, body{ height: 100%; }
     transform: translate3d(-50%, 20px, 0);
     opacity: 0;
   }
+  /*
   @media (min-width: 768px) {
     from {
       -webkit-transform: translate(-50%, 0);
@@ -627,7 +624,7 @@ html, body{ height: 100%; }
       transform: translate3d(-50%, 40px, 0);
       opacity: 0;
     }
-  }
+  }*/
 }
 	
 /*------------------------------------------------------------------
@@ -867,9 +864,6 @@ html, body{ height: 100%; }
 -------------------------------------------------------------------*/
 
 
-.menu-main{
-	
-}
 
 .menu-main .title-caption{
 	color:#666;
@@ -1101,9 +1095,6 @@ html, body{ height: 100%; }
     our client area
 -------------------------------------------------------------------*/
 
-.reservations-main{
-	
-}
 
 .border-bot-red {
     border-bottom: 2px solid red;
@@ -1264,7 +1255,6 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     FOOTER AREA
 -------------------------------------------------------------------*/
 
-.footer-main{}
 .footer-news{
 	background:url(../images/newsletter-bg.jpg) no-repeat center;
 	background-attachment:fixed;
