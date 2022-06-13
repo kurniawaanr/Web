@@ -426,6 +426,19 @@ html, body{ height: 100%; }
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
 
 }
+
+.banner-text h3{
+    font-family: 'Roboto';
+    color: white;
+    letter-spacing: 1.7px;
+    position: relative;
+	font-size: 27px;
+    line-height: 100px;
+	padding-bottom:25px;
+    font-weight: light;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
 .banner-text p{
 	font-family: 'Roboto', sans-serif;
 	font-size:18px;
@@ -657,6 +670,10 @@ html, body{ height: 100%; }
 	font-size:52px;
     font-family: 'Lobster', cursive;
 	font-weight: bold;
+}
+
+.p .secondary-main{
+    font-size:50px;
 }
 
 .about-images {
