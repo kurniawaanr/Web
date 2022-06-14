@@ -436,7 +436,7 @@ html, body{ height: 100%; }
     line-height: 100px;
 	padding-bottom:25px;
     font-weight: light;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
 }
 
 .banner-text p{
@@ -890,7 +890,7 @@ html, body{ height: 100%; }
 }
 
 .tab-title-menu h2{
-	border-bottom:1px solid #666;
+	border-bottom:1px solid #666; 
 	display: inline-block;
 	padding-top: 10px;
 }

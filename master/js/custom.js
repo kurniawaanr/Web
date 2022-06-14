@@ -90,8 +90,8 @@
 				$('.slider-nav .slick-slide.slick-current').addClass('is-active');
 			})
 			.slick({
-				slidesToShow: 4,
-				slidesToScroll: 7,
+				slidesToShow: 6,
+				slidesToScroll: 6,
 				dots: false,
 				focusOnSelect: false,
 				infinite: false,
@@ -104,14 +104,14 @@
 				}, {
 					breakpoint: 769,
 					settings: {
-						slidesToShow: 4,
-						slidesToScroll: 4,
+						slidesToShow: 6,
+						slidesToScroll: 6,
 					}
 				}, {
 					breakpoint: 420,
 					settings: {
-						slidesToShow: 3,
-						slidesToScroll: 3,
+						slidesToShow: 6,
+						slidesToScroll: 6,
 				}
 				}]
 			});
