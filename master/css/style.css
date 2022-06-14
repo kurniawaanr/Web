@@ -1014,6 +1014,9 @@ html, body{ height: 100%; }
     text-align: center;
 	background:#fff;
 }
+.text-color{
+    color: red;
+}
 
 .sf-team .thumb a img{
 	width:100%;
